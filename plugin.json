@@ -1,0 +1,15 @@
+{
+    "id": "playerapi",
+    "name": "playerapi",
+    "description": "Simple display info",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "Gabidut76"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\playerapi\\Providers\\PlayerAPIServiceProvider",
+        "\\Azuriom\\Plugin\\playerapi\\Providers\\RouteServiceProvider"
+    ]
+}
